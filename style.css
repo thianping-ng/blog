@@ -1,6 +1,7 @@
 h2{
+padding: 4px;
 box-sizing: border-box;
-border: 1px solid lightgrey;
-background-color: lightcoral;
+border: 1px solid red;
+background-color: lightgrey;
 font-weight: bold;
 }
