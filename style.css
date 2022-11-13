@@ -1,4 +1,6 @@
 h2{
-background-color: lightgrey;
+box-sizing: border-box;
+border: 1px solid lightgrey;
+background-color: lightcoral;
 font-weight: bold;
 }
