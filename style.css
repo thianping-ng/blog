@@ -64,6 +64,74 @@ body{
     background-color: white;
     border-radius: 1rem;
 }
+.slide-title{
+    position: relative;
+    width: 26%;
+    left: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    background-color: black;
+    border-radius: 40px;
+    text-align: center;
+}
+.slider-frame{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 50%;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+
+
+.slide-image{
+    display: flex;
+    position: relative;
+    width: 2600px;
+    animation: slide 16s infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0);
+    }
+    30%{
+        transform: translate(-25%);
+    }
+    50%{
+        transform: translate(-25%);
+    }
+    55%{
+        transform: translate(-50%);
+    }
+    75%{
+        transform: translate(-50%);
+    }
+    80%{
+        transform: translate(-75%);
+    }
+    100%{
+        transform: translate(-75%);
+    }
+}
+
+.img-container{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+img{
+    width: 600px;
+    height: 900px;
+}
+
 
 @media (max-width: 700px){
     .toggle-button{
