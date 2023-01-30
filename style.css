@@ -95,6 +95,66 @@ body{
     animation: slide 16s infinite;
 }
 
+.forms{
+    margin-top: 5%;
+    position: relative;
+    background-color: blue;
+    border-radius: 5px;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.forms h1{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color:aquamarine;
+}
+
+.forms .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.forms .email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.forms .password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+button{
+    top: 2%;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 @keyframes slide{
     0%{
         transform: translate(0);
