@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="breakpoint.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Blog</title>
   </head>
@@ -43,13 +44,31 @@
     <form action="/" method="post" class="forms">
       <h1>Forms</h1>
       <label for="name" class="name">Name</label>
-      <input type="text" name="name" class="name" required />
+      <input type="text" name="name" class="name" id="name" required />
       <label for="email" class="email">Email</label>
-      <input type="email" class="email" required name="email" />
+      <input type="email" id="email" class="email required name="email" />
       <label for="password" class="password">Password</label>
-      <input type="passoword" class="password" required name="password" />
-      <button>Button</button>
+      <input
+        type="text"
+        class="password"
+        id="password"
+        required
+        name="password"
+      />
+      <input id="button" type="submit" />
+
+      <div class="container">
+        <table class="table">
+          <thead>
+            <th>Name</th>
+            <th>email</th>
+            <th>password</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </form>
   </body>
+  <script src="jquery.js"></script>
   <script src="script.js"></script>
 </html>
