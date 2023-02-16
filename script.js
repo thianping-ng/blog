@@ -7,8 +7,8 @@ togglebutton.addEventListener('click', ()=> {
 
 $(document).ready(function(){
 
-    const url = "https://interactivedev-2483.restdb.io/rest/useraccount";
-    const apikey = "63b429ec969f06502871a8e8";
+    const url = "https://interactiveapi-4204.restdb.io/rest/useraccount";
+    const apikey = "63ee498c478852088da6836e";
 
     $("#button").on("click", function(e){
         e.preventDefault();
