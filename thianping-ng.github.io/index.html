@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="breakpoint.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Welcome to interactive Design</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="slide-title">Sliding image</h1>
+    <div class="slider-frame">
+      <div class="slide-image">
+        <div class="img-container">
+          <img src="photo/black hole.jpg" />
+        </div>
+        <div class="img-container">
+          <img src="photo/wings.webp" />
+        </div>
+        <div class="img-container">
+          <img src="photo/wolf.jpg" />
+        </div>
+        <div class="img-container">
+          <img src="photo/wonders.jpg" />
+        </div>
+      </div>
+    </div>
+    <form action="/" method="post" class="forms">
+      <h1>Forms</h1>
+      <label for="name" class="name">Name</label>
+      <input type="text" name="name" class="name" id="name" required />
+      <label for="email" class="email">Email</label>
+      <input type="email" id="email" class="email required name="email" />
+      <label for="password" class="password">Password</label>
+      <input
+        type="text"
+        class="password"
+        id="password"
+        required
+        name="password"
+      />
+      <input id="button" type="submit" />
+
+      <div class="container">
+        <table class="table">
+          <thead>
+            <th>Name</th>
+            <th>email</th>
+            <th>password</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </form>
+  </body>
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+</html>
