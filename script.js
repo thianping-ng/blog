@@ -67,9 +67,13 @@ $(document).ready(function(){
     
         $.ajax(setting).done(function (res){
             console.log(res)
+
             let content = "";
+            data()
+            
+            function data(){
                 for (var i = 0; i < res.length; i++){
-                    content += `${content}
+                    content += `
                     <tr>
                         <td>${res[i].name}</td>
                         <td>${res[i].email}</td>
@@ -78,6 +82,8 @@ $(document).ready(function(){
                     `    
                 }
                 $(".table tbody").html(content);
+            }
+     
             })
         }
     })
