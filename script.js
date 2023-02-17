@@ -70,9 +70,11 @@ $(document).ready(function(){
             let content = "";
                 for (var i = 0; i < res.length; i++){
                     content += `${content}
+                    <tr>
                         <td>${res[i].name}</td>
                         <td>${res[i].email}</td>
                         <td>${res[i].password}</td>
+                    </tr>
                     `    
                 }
                 $(".table tbody").html(content);

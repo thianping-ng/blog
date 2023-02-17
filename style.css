@@ -164,9 +164,33 @@ body{
     margin-left: 10%;
     color: white;
 }
-.table th{
-    padding: 120px;
-    font-size: 20px;
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table thead tr{
+    background-color: lightseagreen;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table tbody{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table th,.table td{
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px #dddddd;
 }
 
 
