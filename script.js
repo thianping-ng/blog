@@ -47,7 +47,7 @@ $(document).ready(function(){
 
         $(".forms").trigger("reset");
         })
-
+        getdata()
     })
 
     getdata()
