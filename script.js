@@ -74,7 +74,7 @@ $(document).ready(function(){
             function data(){
                 for (var i = 0; i < res.length; i++){
                     content += `
-                    <tr>
+                    <tr style="border-bottom: 1px solid #dddddd">
                         <td>${res[i].name}</td>
                         <td>${res[i].email}</td>
                         <td>${res[i].password}</td>
